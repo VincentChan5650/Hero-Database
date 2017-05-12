@@ -1,0 +1,18 @@
+<% include partials/header %>
+<div class="container-fluid">
+    <div class="hero-width">
+        <div class="center-block">
+            <h1><%= hero.heroTitle %></h1>
+            <div class="hero-img thumbnail">
+                <img src="<%= hero.image %>">
+            </div>
+            <div class="hero-info">
+                <p>Name:<span class="hero-detail"><%= hero.name %></span></p>
+                <p>City:<span class="hero-detail"><%= hero.city %></span></p>
+                <p>Power:<span class="hero-detail"><%= hero.power %></span></p>
+                <p>Description:<span class="hero-detail"><%= hero.description %></span></p>
+             </div>
+         </div>
+     </div>
+</div>     
+<% include partials/footer %>

@@ -1,0 +1,39 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Baloo', 'Arial', sans-serif;
+}
+h1{
+    text-align: center;
+    padding-bottom: 15px;
+    font-weight: 200;
+}
+
+.row{
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-style{
+    width:30%;
+    margin:0 auto;
+}
+.jumbotron{
+    padding-top:20px;
+    padding-bottom:20px; 
+}
+.hero-width{
+    width:60%;
+    margin:0 auto;
+}
+.hero-img{
+    float:left;
+}
+.hero-info{
+    float:right;
+}
+.hero-detail{
+    padding-left: 10px;
+    color:#2c3e50;
+}
